@@ -1,5 +1,5 @@
 //
-//  GKViewController.h
+//  GKTableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Gene Kelton on 8/16/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GKViewController : UIViewController
+@interface GKTableViewController : UITableViewController
 
 @end

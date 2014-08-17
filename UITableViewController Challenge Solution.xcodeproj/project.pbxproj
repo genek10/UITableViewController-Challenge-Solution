@@ -14,13 +14,13 @@
 		ED76795019A03FD700AC3BB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED76794F19A03FD700AC3BB3 /* main.m */; };
 		ED76795419A03FD700AC3BB3 /* GKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED76795319A03FD700AC3BB3 /* GKAppDelegate.m */; };
 		ED76795719A03FD700AC3BB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED76795519A03FD700AC3BB3 /* Main.storyboard */; };
-		ED76795A19A03FD700AC3BB3 /* GKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED76795919A03FD700AC3BB3 /* GKViewController.m */; };
 		ED76795C19A03FD700AC3BB3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED76795B19A03FD700AC3BB3 /* Images.xcassets */; };
 		ED76796319A03FD700AC3BB3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED76796219A03FD700AC3BB3 /* XCTest.framework */; };
 		ED76796419A03FD700AC3BB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED76794319A03FD700AC3BB3 /* Foundation.framework */; };
 		ED76796519A03FD700AC3BB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED76794719A03FD700AC3BB3 /* UIKit.framework */; };
 		ED76796D19A03FD700AC3BB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED76796B19A03FD700AC3BB3 /* InfoPlist.strings */; };
 		ED76796F19A03FD700AC3BB3 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED76796E19A03FD700AC3BB3 /* UITableViewController_Challenge_SolutionTests.m */; };
+		ED76797D19A040CD00AC3BB3 /* GKTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED76797C19A040CD00AC3BB3 /* GKTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		ED76795219A03FD700AC3BB3 /* GKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKAppDelegate.h; sourceTree = "<group>"; };
 		ED76795319A03FD700AC3BB3 /* GKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKAppDelegate.m; sourceTree = "<group>"; };
 		ED76795619A03FD700AC3BB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ED76795819A03FD700AC3BB3 /* GKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKViewController.h; sourceTree = "<group>"; };
-		ED76795919A03FD700AC3BB3 /* GKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKViewController.m; sourceTree = "<group>"; };
 		ED76795B19A03FD700AC3BB3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ED76796119A03FD700AC3BB3 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED76796219A03FD700AC3BB3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		ED76796A19A03FD700AC3BB3 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		ED76796C19A03FD700AC3BB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ED76796E19A03FD700AC3BB3 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		ED76797B19A040CD00AC3BB3 /* GKTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKTableViewController.h; sourceTree = "<group>"; };
+		ED76797C19A040CD00AC3BB3 /* GKTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +82,8 @@
 		ED76793719A03FD700AC3BB3 = {
 			isa = PBXGroup;
 			children = (
+				ED76797B19A040CD00AC3BB3 /* GKTableViewController.h */,
+				ED76797C19A040CD00AC3BB3 /* GKTableViewController.m */,
 				ED76794919A03FD700AC3BB3 /* UITableViewController Challenge Solution */,
 				ED76796819A03FD700AC3BB3 /* UITableViewController Challenge SolutionTests */,
 				ED76794219A03FD700AC3BB3 /* Frameworks */,
@@ -112,11 +114,7 @@
 		ED76794919A03FD700AC3BB3 /* UITableViewController Challenge Solution */ = {
 			isa = PBXGroup;
 			children = (
-				ED76795219A03FD700AC3BB3 /* GKAppDelegate.h */,
-				ED76795319A03FD700AC3BB3 /* GKAppDelegate.m */,
 				ED76795519A03FD700AC3BB3 /* Main.storyboard */,
-				ED76795819A03FD700AC3BB3 /* GKViewController.h */,
-				ED76795919A03FD700AC3BB3 /* GKViewController.m */,
 				ED76795B19A03FD700AC3BB3 /* Images.xcassets */,
 				ED76794A19A03FD700AC3BB3 /* Supporting Files */,
 			);
@@ -126,6 +124,8 @@
 		ED76794A19A03FD700AC3BB3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ED76795219A03FD700AC3BB3 /* GKAppDelegate.h */,
+				ED76795319A03FD700AC3BB3 /* GKAppDelegate.m */,
 				ED76794B19A03FD700AC3BB3 /* UITableViewController Challenge Solution-Info.plist */,
 				ED76794C19A03FD700AC3BB3 /* InfoPlist.strings */,
 				ED76794F19A03FD700AC3BB3 /* main.m */,
@@ -251,7 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED76795419A03FD700AC3BB3 /* GKAppDelegate.m in Sources */,
-				ED76795A19A03FD700AC3BB3 /* GKViewController.m in Sources */,
+				ED76797D19A040CD00AC3BB3 /* GKTableViewController.m in Sources */,
 				ED76795019A03FD700AC3BB3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
